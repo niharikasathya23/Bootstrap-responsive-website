@@ -1,0 +1,56 @@
+body {
+  margin: 2em;
+  background: linear-gradient(to left, #180968, #0cb3c9);
+}
+aside {
+    background: #1f8dd6; /* same color as selected state on site menu */
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+ 
+text-decoration: none;
+outline: none;
+color: #fff;
+background: green;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+
+
+}
+.button-success:hover{background-color: #3e8e41;}
+
+.button-success:active{
+  background-color: indianred;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
